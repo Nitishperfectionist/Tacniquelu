@@ -1,0 +1,123 @@
+ /* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Pagination Styles */
+  .pages-div {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .pagination {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Popup Styles */
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .store-add-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
+  .store-add-div form {
+    margin-bottom: 20px;
+  }
+  
+  .store-add-div h2 {
+    margin-bottom: 20px;
+  }
+  
+  .store-add-div input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .store-add-div button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .store-add-div button:last-child {
+    margin-left: 10px;
+    background-color: #dc3545;
+  }
+  
+  .store-add-div button:hover {
+    background-color:blue;
+  }
+  
+  /* Main Div Styles */
+  .main-div {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .main-div button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .main-div button:hover {
+    background-color: black;
+  }
+  
+  .main-div .pagination:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+ 
