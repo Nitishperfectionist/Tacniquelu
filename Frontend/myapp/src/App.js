@@ -1,21 +1,17 @@
-import './App.css'
-import Userlist from './components/Userlist'
+
+import './App.css';
+import Homepage from './pages/Homepage';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
-
   return (
-    <>
-      <h2 style=
-      {{textAlign:"center",
-      fontWeight:"bold",
-      marginTop:"10px",
-      textDecoration:"underline"
-      }}>
-      User Management Dashboard
-      </h2>
-      <Userlist/>
-    </>
-  )
+    <div className="App">
+     <ToastContainer />
+      <Homepage/>
+    </div>
+  );
 }
 
-export default App
+export default App;
